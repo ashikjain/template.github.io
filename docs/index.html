@@ -1,1 +1,48 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>template 1</title>
+        <link rel="stylesheet" href="../docs/stylesheet/first.css"/>
+        <script type="text/javascript" src="../docs/script/script1.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <h4>digital payment operations</h4>
+                <ul>
+                    <li onclick="playbook()"><a href="#">playbooks</a></li>
+                    <ul>
+                        <li onclick="application()"><a href="#"> application 1</a></li>
+                        <ul>
+                            <li onclick="overview()"><a href="#">overview</a></li>
+                            <li onclick="diagram()"><a href="#">flow diagram</a></li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li><a href="#"> application 2</a></li>
+                            <ul>
+                                <li><a href="#">overview</a></li>
+                                <li><a href="#">flow diagrams</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li><a href="#">major topic 1</a></li>
+                </ul>
+            </ul>
+        </div>
+        <div class="main_content">
+            <div id="div1">
+                playbook
+            </div>
+            <div id="div2">
+                application details
+            </div>
+            <div id="div3">
+                over view
+            </div>
+            <img onclick="enlarge()" ondblclick="resize()" id="image1" src="../docs/images/table_image.jpg" alt="image test"/>
+        </div>
+    </body>
+</html>
